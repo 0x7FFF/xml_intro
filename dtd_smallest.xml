@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ELEMENT root ANY>
+<!ELEMENT student ANY>
+<!ELEMENT mark ANY>
+<!ATTLIST mark discipline CDATA #IMPLIED>
+<!ATTLIST student name CDATA #IMPLIED>
+]>
+<root>
+  <student name="Stephen">
+    <mark discipline="English">5</mark>
+    <mark discipline="Russian">4</mark>
+  </student>
+  <student name="Denis">
+    <mark discipline="English">5</mark>
+  </student>
+</root>
